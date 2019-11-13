@@ -23,6 +23,6 @@ class PrincipalController extends Controller
     }
 
     public function listadoAlumnos(){
-        return view('Alumnos\ListaMaterias');
+        return view('Alumnos\ListaAlumnos');
     }
 }

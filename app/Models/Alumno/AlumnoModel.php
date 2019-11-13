@@ -11,8 +11,8 @@ class UsuarioModel extends Model
   public $timestamps = false;
 
   protected $fillable = [
-    'matricula','nombre_alumno','sexo'
-    ,'carrera'
+    'matricula','nombre_alumno', 'ap_paterno',
+     'ap_materno','sexo','carrera'
   ];
 }
 
